@@ -1,10 +1,14 @@
 name: macOS
+
 on:
  workflow dispatch:
+ 
 defaults:
  run:
   shell: bash
+  
 Jobs:
+
  build:
   runs-on: macos-latest
   steps:
